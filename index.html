@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>homework # 4</title>
+    <title>homework # 5</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,11 +45,15 @@
     </header>
 
     <main>
-     
         <section class="c1">      
             <h1>Effective Solutions<br>Your Business</h1>
 
-            <button type="button">Order Service</button>
+            <button type="button" class="data-modal-open">Order Service</button>
+            <div class="modal data-modal">
+                <div class="content">
+                    <button class="data-modal-close">&times</button>
+                </div>
+            </div>
         </section>
 
         <section class="c2 section">
@@ -215,7 +219,6 @@
                         </div>
                     </div>     
                 </li>
-
                 <li>
                     <img src="images/1.7.jpg" alt="Daniel Wilson" width="264px">
                     <div>
@@ -359,5 +362,7 @@
 
         
     </footer>
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>
