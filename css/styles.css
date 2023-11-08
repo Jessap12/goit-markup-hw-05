@@ -1,0 +1,271 @@
+.logo {
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.logo span{
+    color:#4D5AE5 ;
+}
+
+ul li {
+    list-style-type: none;
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+}
+
+p {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+ul {
+    padding-inline-start: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color: blue;    
+}
+
+
+.c1 {
+    background-color:#2E2F42 ;
+    padding: 188px;
+    text-align: center;
+}
+
+.c1 h1{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
+    color: white;
+}
+
+ button{
+    text-align: center;
+    padding: 16px 32px;
+    color: white;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+ }
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    color: #2E2F42;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    margin: 0%;
+}
+
+footer {
+    background-color:#2E2F42
+}
+footer p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+footer p:hover{
+    color: blue;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header{
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+header.flex{
+    justify-content: space-between;
+}
+
+.container{
+    width: 1158px;
+    margin: auto;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.img1 {
+    gap: 10px;
+}
+
+.img2{
+    background-color: #F4F4FD;
+}
+
+.img2 h2{
+    padding-top: 0%;
+}
+
+.img2 li{
+    background-color: white;
+}
+.img3{
+    gap: 10px;
+    text-align: center;
+}
+
+.img3 div{
+padding-top: 32px;    
+padding-bottom: 32px;
+display: flex;
+gap: 8px;
+flex-direction: column;
+
+}
+.img3 p{
+    margin: 0%;
+}
+
+nav.flex {
+    gap: 80px;
+}
+
+header ul.flex{
+    gap: 40px;
+}
+
+footer div {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+li div.icon{
+    display: flex;
+    background-color: #F4F4FD;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    width: 264px;
+}
+
+div.team-socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    padding: 0;
+}
+
+div.team-socials a{
+    display: flex;
+    background-color: #4D5AE5;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    fill: white;
+    
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.customer-icon {
+   padding: 16px 32px;
+   border: 1px solid #8e8f99;
+   margin-bottom: 150px;
+   border-radius: 5px;
+}
+
+.customer-icon svg {
+    fill: #8e8f99;
+}
+
+footer div.container.flex {
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.social-icons p {
+    margin: 0px;
+    padding-bottom: 16px;
+}
+
+.social-icons > .team-socials {
+    gap: 16px;
+}
+
+
+
+
+/*** portfolio section ***/
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid rgba(123, 123, 123, 0.1);
+}
+
+.card img {
+    width: 360px;
+    height: 300px;
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 16px;
+    padding: 32px 16px;
+}
+
+.card div > * {  /* this does select all elements under class card div, which are h3 and p atm */
+    margin: 0 0;
+}
